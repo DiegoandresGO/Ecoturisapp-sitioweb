@@ -1,0 +1,17 @@
+.textDiv {
+    text-align: center;
+    background-image: linear-gradient(to right, transparent 0%, #d1ce07 50%, transparent 100%);
+}
+.cardDiv {
+    text-align: center;
+    background-image: linear-gradient(to right, transparent 0%, #3f26ce 50%, transparent 100%);
+}
+
+.homeContent-container{
+    text-align: center;
+    background-image: linear-gradient(to right, transparent 0%, #c71818 50%, transparent 100%);
+}
+
+label{
+    color: aliceblue;
+}

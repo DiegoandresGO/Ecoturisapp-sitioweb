@@ -1,0 +1,18 @@
+.secTitle{
+    text-align: center;
+}
+
+.imageDiv{
+    width: 40%;
+    height: 40%;
+    margin: 0 auto;
+    
+}
+
+.cardInfo{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+}

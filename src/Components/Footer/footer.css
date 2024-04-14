@@ -1,0 +1,31 @@
+.videoDiv{
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contactDiv-flex{
+    text-align: center;
+    background-image: linear-gradient(to right, transparent 0%, #3f26ce 50%, transparent 100%);
+}
+
+small{
+    color: aliceblue;
+}
+
+h2{
+    color: aliceblue;
+}
+
+.footerSocials-flex{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h6{
+    color: aliceblue;
+    margin: 0 auto;
+}
+
