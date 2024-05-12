@@ -1,5 +1,6 @@
 import React from 'react'
 import "./main.css"
+import video2 from '../../Assets/video2.mp4'
 
 
 import img from '../../Assets/img (1).jpg'
@@ -15,7 +16,6 @@ import img10 from '../../Assets/img (10).jpg'
 
 
 import {HiOutlineLocationMarker} from 'react-icons/hi'
-import {HiOutlineClipboardCheck} from 'react-icons/hi'
 import {GiColombia} from 'react-icons/gi'
 
 const Data = [
@@ -24,7 +24,7 @@ const Data = [
     imgSrc: img,
     destTitle: 'Cartagena',
     location: 'Colombia',
-    description: 'Cartagena es una ciudad que está ubicada a orillas del Mar Caribe. Sus calles coloridas llenas de encanto la hacen la puerta de entrada a Suramérica. En Colombia, se encuentra al norte del país, y es la capital de la región de Bolívar.'
+    description: 'Cartagena es una ciudad que está ubicada a orillas del Mar Caribe. Sus calles coloridas llenas de encanto la hacen la puerta de entrada a Suramérica. En Colombia, se encuentra al norte del país, y es la capital de la región de Bolívar.',
   },
   {
     id:2,
@@ -103,6 +103,9 @@ const Data = [
 const Main= () => {
   return (
     <section className='main container section'>
+      <div className="videoDiv">
+      <video src={video2} loop autoPlay muted type="video/mp4"></video>
+    </div>
 
       <div className="secTitle">
         <h3 className="title">
@@ -119,7 +122,6 @@ const Main= () => {
             <div key={id} className="singleDestination">
               {/* */}
               <br />
-              <br />
               <div className="imageDiv">
                 <img src={imgSrc} alt=
                 {destTitle} />
@@ -134,12 +136,8 @@ const Main= () => {
                 <div className="desc">
                   <p>{description}</p>
                 </div>
-
-                <button className='btn'>
-                  DETALLES <HiOutlineClipboardCheck className="icon"/>
-                </button>
-                <br />
               </div>
+              <hr />
             </div>
           )
 

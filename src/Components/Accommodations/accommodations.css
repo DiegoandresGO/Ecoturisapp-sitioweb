@@ -1,0 +1,45 @@
+.image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Vertically align image-text pairs */
+  }
+  
+  .image-text-pair {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center text horizontally */
+    margin: 10px; /* Adjust spacing between pairs */
+  }
+  
+  .image {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px; 
+    border-radius: 150px;
+  }
+  
+  .image-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px;
+    padding: -10px;
+    border: 5px solid #ccc;
+    background-color: #f5f5f5;
+    height: 220px;
+    width: 275px;
+    text-align: center;
+  }
+  
+  .image-title {
+    color: black;
+  }
+
+  .icons
+  {
+    color: #ffd700;
+  }
+
+.info {
+  color: rgb(0, 0, 0);
+    margin: 0 auto;
+}

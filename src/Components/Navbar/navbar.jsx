@@ -1,57 +1,36 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './navbar.css';
 import {MdOutlineAirplanemodeActive} from 'react-icons/md';
-import { Outlet, Link } from "react-router-dom"
+import { Link, NavLink } from 'react-router-dom';
+
 
 const Navbar= () => {
-    const [active] = useState('navBar')
     
   return (
-    <section className='navBarSection'>
-        <header className="header flex">
-            <div className="logoDiv">
-                <a href="/" className="logo flex">
-                    <h1><MdOutlineAirplanemodeActive
-                    className="icon" /> EcoturisApp.</h1>
-                </a>
-            </div>
-            
-        <div className={active}>
-            <ul className="navLists flex"> 
-            <li className='nav-item'>
-                <Link to="/">Inicio</Link>
-            </li>     
-            <h1>|</h1>
-            <li className='nav-item'>
-            <Link to="/">Paquetes turisticos</Link> 
-            </li>  
-            <h1>|</h1>
-            <li className='nav-item'>
-            <Link to="Destinations">Destinos</Link>
-            </li> 
-            <h1>|</h1>
-            <li className='nav-item'>
-            <Link to="About">Acerca de</Link>
-            </li>  
-            <h1>|</h1>
-            <li className='nav-item'>
-            <Link to="New">Nuevo</Link>
-            </li>
-            <h1>|</h1> 
-            <li className='nav-item'>
-            <Link to="Contact">Contacto</Link>
-            </li>   
-            <button className='btn'>
-                <a href="https://www.whatsapp.com/">Reserva ahora</a>
-                </button>
-                </ul>
-                <hr />
-                <Outlet />
-            </div> 
-           
+    <nav>
+        <Link to="/inicio" className='title'><h1><MdOutlineAirplanemodeActive />Ecoturisapp</h1></Link>
+        <ul>
+        <li>
+            <NavLink to="/inicio">Inicio</NavLink> 
+        </li>
+        <li>
+            <NavLink to="/destinos">Destinos</NavLink>
+        </li>
+        <li>
+            <NavLink to="/alojamientos">Alojamientos</NavLink>
+        </li>
+        <li>
+            <NavLink to="/actividades">Actividades</NavLink>
+        </li>
+        <li>
+            <NavLink to="/experiencias">Experiencias</NavLink>
+        </li>
+        <li>
+            <NavLink to="/contacto">Contacto</NavLink>
+        </li>
 
-        </header>
-    </section>
+        </ul>
+    </nav>
   )
 }
 

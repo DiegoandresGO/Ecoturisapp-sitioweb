@@ -1,0 +1,36 @@
+.imageDiv{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+.desc {
+    padding: 10px;
+    width: 900px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.imgDiv {
+    width: 55%;
+    height: 40%;
+    margin: 0 auto;
+}
+.information{
+    text-align: center;
+}
+
+button {
+    padding: .5rem 1.0rem;
+    background-color: aquamarine;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

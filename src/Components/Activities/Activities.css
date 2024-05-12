@@ -1,0 +1,36 @@
+.image-containe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-text-pai {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center text horizontally */
+    margin: 5px; /* Adjust spacing between pairs */
+  }
+
+  .image1 {
+    display: flex;
+    width: 400px;
+    height: 330px;
+    margin-bottom: 5px; 
+
+  }
+
+  .image-texto {
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
+    padding: 35px;
+    text-align: center;
+    width: 450px;
+    height: 330px
+  }
+
+  .image-title1 {
+    color: black;
+    margin: 0 auto;
+  }
