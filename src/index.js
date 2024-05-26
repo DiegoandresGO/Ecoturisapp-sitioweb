@@ -8,6 +8,7 @@ export * from "./Components/Pages/Destinos"
 export * from "./Components/Pages/Alojamientos"
 export * from "./Components/Pages/Actividades"
 export * from "./Components/Pages/Inicio"
+export * from "./Components/Pages/Vuelos"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

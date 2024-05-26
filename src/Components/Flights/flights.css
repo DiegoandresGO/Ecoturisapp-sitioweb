@@ -1,0 +1,27 @@
+h2 {
+    text-align: center;
+}
+
+.imageflights {
+    width: 650px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.text-flights {
+    text-align: center;
+}
+
+.image-text-flights {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px;
+    padding: -10px;
+    height: 220px;
+    width: 275px;
+    text-align: center;
+  }
+.image-containerflights {
+    width: 300px;
+    height: 250px;
+}

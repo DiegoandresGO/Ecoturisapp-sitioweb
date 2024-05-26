@@ -22,9 +22,7 @@ const Footer = () => {
         <div className='inputDiv-flex'>
           <input type="text" placeholder='Enter Email Address' />
           <br />
-          <button className='btn'>
-            ENVIAR <FiSend className='icon'/>
-          </button>
+          <button className='btn'>ENVIAR<a href="https://mail.google.com/mail/u/0/#inbox"></a><FiSend className='icon'/></button>
         </div>
         <div className='footerSocials-flex'>
           <a href="https://twitter.com/" className="logo flex">
